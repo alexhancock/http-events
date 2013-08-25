@@ -1,0 +1,21 @@
+{
+  "name": "http-events",
+  "version": "0.0.1",
+  "repository": "git@github.com:alexhancock/http-events.git",
+  "description": "A straight-forward module which exposes the services of an event emitter over HTTP",
+  "main": "server.js",
+  "keywords": [
+    "events",
+    "architecture",
+    "infrastructure",
+    "components",
+    "coupling"
+  ],
+  "author": "Alex J Hancock",
+  "license": "MIT",
+  "dependencies": {
+    "express": ">=3.3.5",
+    "underscore": ">=1.5.1",
+    "request": ">=2.2.7"
+  }
+}
