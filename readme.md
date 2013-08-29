@@ -69,7 +69,7 @@ app.listen(9091);
 var request = require('request-json');
 var client = request.newClient('http://0.0.0.0:8080/');
 
-client.post('emit/someEvent', { message: 'Should get this' }, function(err, res){
+client.post('emit/someEvent', { message: 'Hi!' }, function(err, res){
   // res.body === 'emitted'
 });
 ```
